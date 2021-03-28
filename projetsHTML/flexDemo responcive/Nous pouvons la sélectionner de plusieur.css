@@ -1,0 +1,21 @@
+Nous pouvons la sélectionner de plusieurs façons en CSS
+
+/* Avec l'id */
+#mon_id {
+   propriété : valeur
+}
+
+/* Avec la classe */
+.box-example {
+   propriété : valeur
+}
+
+/* Avec l'élément */
+div {
+   propriété : valeur
+}
+
+/* Avec un attribut */
+[title="example"] {
+   propriété : valeur
+}

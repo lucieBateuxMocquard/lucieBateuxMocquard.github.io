@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Landing Page</title>
+  </head>
+  <body>
+
+
+
+
+  <!-- Inclure une navigation -->
+
+  <nav class="navbar fixed-top navbar-expand-md bg-dark sticky navbar-light">
+      <!-- Inclure un logo -->
+    <a href="#" class="navbar-brand">
+        <i class="fas fa-home text-danger px-3"></i>
+    </a>
+
+    <!-- Ici le bouton -->
+    <button 
+    type="button" 
+    class="navbar-toggler bg-light"
+    data-toggle="collapse"
+    data-target="#nav"
+    >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Ici la div pour rendre le menu responsive -->
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-light px-3" href="#">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link text-light px-3" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link text-light px-3" href="#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link text-light px-3" href="#faq">FAQ</a></li>
+      </ul>
+    </div><!-- Fermeture de collapse navbar-collapse -->
+  </nav>
+
+
+  <!--  Section Hero -->
+  <section>
+      <div class="container-fluid">
+          <div class="row bg-info hero justify-content-center align-items-center text-center ">
+            <!-- Ici une DIV de 10 colonnes -->
+            <div class="col-sm-10 bg-danger p-5 m-xs-2">
+                <h1 class="display-1 text-white">Site Bootstrap</h1>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <a href="#" class="btn btn-warning">Acheter</a>
+                <a href="#" class="btn btn-outline-success btn-sm">En savoir plus</a>
+            </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Services -->
+  <section class="bg-light p-5" id="services">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center mb-3">
+                <h1 class="text-warning display-2">Services</h1>
+                <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <!-- Création de 3 colonnes -->
+            <!-- .col-lg-4*3 -->
+            <div class="col-lg-4 mb-5 ">
+                <i class="fas fa-desktop fa-5x"></i>
+                <h1 class="text-secondary">Développement</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, ratione. Amet voluptatibus corrupti accusantium? Pariatur deserunt minima aperiam facere repellat ab aspernatur ad quam commodi nemo, dolore esse, ut velit.</p>
+                <a href="#" class="btn btn-outline-warning">Lire plus</a>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <i class="fas fa-desktop fa-5x"></i>
+                <h1 class="text-secondary">Développement</h1>
+                <p my-4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, ratione. Amet voluptatibus corrupti accusantium? Pariatur deserunt minima aperiam facere repellat ab aspernatur ad quam commodi nemo, dolore esse, ut velit.</p>
+                <a href="#" class="btn btn-outline-warning">Lire plus</a>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <i class="fas fa-desktop fa-5x"></i>
+                <h1 class="text-secondary">Développement</h1>
+                <p my-4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, ratione. Amet voluptatibus corrupti accusantium? Pariatur deserunt minima aperiam facere repellat ab aspernatur ad quam commodi nemo, dolore esse, ut velit.</p>
+                <a href="#" class="btn btn-outline-warning">Lire plus</a>
+            </div>
+        </div>
+    </div>
+
+  </section>
+  <!-- Fin de Services -->
+
+
+  <section class="bg-light p-5 bg-dark" id="blog">
+    <div class="container">
+      <div class="row">
+        <h2 class="display-5 text-center text-white mb-5">
+          Derniers Articles
+        </h2>
+      </div>
+    </div>
+ 
+    <div class="container-fluid">
+      <div class="row text-center justify-content-center">
+        <div class="col-sm-4 ">
+          <div class="card" > 
+            <img src="img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" > 
+            <img src="img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" > 
+            <img src="img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  </section>
+
+  <section class="py-5" id="faq">
+    <div class="container">
+      <div class="row mb-5">
+        <H1 class="display-5 text-center">
+          Questions fréquentes
+        </H1>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+    <!-- a.href*5 -->
+    <!-- <a href="" class="href"></a>
+    <a href="" class="href"></a>
+    <a href="" class="href"></a>
+    <a href="" class="href"></a>
+    <a href="" class="href"></a> -->
+
+  <!-- Fin de la Section Hero -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

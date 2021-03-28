@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    background-color: gray;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    color:white;
+}
+.box{
+    padding: 20px;
+}
+#alaune{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.produit img{
+    width: 400px;
+}
+
+/* partie services */
+#services{
+    display: flex;
+    text-align: center;
+    background-color: rgb(233, 233, 195);
+}
+.servicesItem{
+    padding: 25px;
+}
+.servicesItem p{
+    text-align: justify;
+    padding-top: 20px;
+}
+
+/* Partie a propos */
+
+#apropos{
+    display: flex;
+}
+#apropos_texte{
+    flex: 2;
+    padding: 29px;
+    font-size: 25px;
+}
+#apropos_image{
+    flex: 1;
+}
+#apropos_image img{
+    max-width: 100%;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    background-color: gray;
+}
+.footer_colonne{
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+}
+.footer_colonne ul{
+    list-style-type: none;
+}
+
+
+/* MEDIA QUERIES
+On annance au navigateur un ordre avec @media. @media est suivi de conditions de dimensions */
+
+/*@media screen and (max-width:414px){
+    /* Ici, les styles ne s'appliquent qu'aux écrans en-dessous de 415px */
+/*.footer_colonne h2{
+    color: green;
+}
+}*/
+/*Fin de media query. NE RIEN METTRE EN DESSOUS*/
+
+
+/* Ici on cible de 0 pixels à 600 pixels */
+@media screen and (max-width:600px){
+    .footer_colonne h2{
+        color: purple;
+    }
+    #services, #apropos, footer{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+        height: 300px;
+    }
+    nav div:first-child{
+        display: none;
+    }
+    nav .box a{
+        display: block;
+        padding: 10px;
+    }
+    .produit img{
+        max-width: 100%;
+    }
+
+}

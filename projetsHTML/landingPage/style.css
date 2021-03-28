@@ -1,0 +1,5 @@
+.custom-bg{
+    background-image: url('fond.jpg');
+     background-size: cover; 
+     height: 600px;
+}

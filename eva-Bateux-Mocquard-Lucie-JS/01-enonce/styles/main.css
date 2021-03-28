@@ -1,0 +1,183 @@
+/* =========================================================================
+ * BASE
+ * ========================================================================= */
+
+/* HTML
+ * ------------------------------------------------------------------------- */
+
+/* html {
+  height: 100%;
+} */
+
+/* BODY
+ * ------------------------------------------------------------------------- */
+
+  body {
+  /* display: flex;
+
+  margin: 0; */
+  background-image: url('../images/ui/background.jpg');
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  /* min-width: var(--dom--min-width);
+  min-height: 100%;
+
+  flex-direction: column;
+
+  font-family: sans-serif; */
+ }
+    
+/* NAVIGATION */
+
+ #lien_menu a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+ }
+
+ #lien_menu{
+   display: flex;
+   text-align: right;
+   justify-content: right;
+ }
+
+nav{
+  
+  height: 200px;
+  background-image: url('../images/ui/background.jpg');
+}
+#nav{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  
+}
+
+/* PRINCIPALE */
+
+#principale{
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgba(240,240,240,255);
+}
+#vehicules_titre{
+  background-color: white;
+  margin: 20px;
+}
+
+/* PRODUITS */
+.produits{
+  display: flex;
+  background-color: white;
+  margin: 20px; 
+}
+
+.vehicules img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.produits_bas{
+  display: flex;
+}
+
+.produits_droit{
+  padding: 15px;
+}
+
+.barre{
+  text-decoration: line-through;
+  margin: 15px;
+}
+.gris{
+  color: rgba(189,189,189,255);
+  margin: 15px;
+}
+.noir{
+  margin: 15px;
+}
+
+.produits_bouton{
+  background-color: rgba(214,106,106,255);
+  margin: 10px;
+  padding: 5px;
+}
+.produits_bouton a{
+  color: white;
+  text-decoration: none;
+}
+.produits_bouton i{
+  color: white;
+  
+}
+
+/* FOOTER */
+footer{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  justify-content: space-around;
+}
+#icones{
+  display: flex;
+  color: white;
+  ;
+
+}
+#icones i{
+  padding: 5px;
+  border: 1px solid rgba(214,106,106,255);
+  border-radius: 50%;
+  background-color: rgba(214,106,106,255);
+  margin: 10px;
+  
+}
+#liens_footer a{
+  color: black;
+}
+#copyright{
+  color: rgba(214,106,106,255);
+}
+
+/* RESPONCIVE */
+@media screen and (max-width:600px){
+    .produits{
+      flex-wrap: wrap;
+    }
+    footer{
+      display: unset;
+      text-align: center;
+    }
+    #icones{
+      display:block;
+
+    }
+}
+
+/* =========================================================================
+ * MY CUSTOM STYLE
+ * ========================================================================= */
+
+/* .example-collection {
+  margin: auto;
+  align-items: center;
+}
+
+.example-collection > .collection__item:not(:first-child) {
+  margin-top: var(--offset--medium);
+}
+
+.brand-logo {
+  width: 128px;
+}
+
+.page-title {
+  color: var(--color--dark-grey);
+}
+
+.font-awesome-example {
+  color: var(--color--black);
+} */

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*SECTION ROUGE*/
+#rouge{
+    background-color: red;
+    height: 300px;
+}
+#rouge h2{
+    color: green;
+}
+
+/*SECTION VERTE*/
+#verte{
+    background-color: green;
+    height: 300px;
+}
+#verte h2{
+    color: white;
+}
+
+/*SECTION BLEUE*/
+#bleue{
+    background-color: blue;
+    height: 300px;
+}
+
+/*SECTION JAUNE*/
+#jaune{
+    background-color: yellow;
+    height: 300px;
+}
+#jaune a{
+    color: green;
+}
+#jaune h2{
+    color: black;
+}
+
+/*DIV AVEC LA CLASSE BORDURE*/
+.bordure{
+    border: 5px black solid;
+}

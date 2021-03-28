@@ -1,0 +1,78 @@
+/* 
+Donner du style à header
+Fixer une largeur à #formulaire
+Rendre la DIV avec classe .form_item
+*/
+*{
+   margin: 0;
+   padding: 0;
+   /* border: 1px red solid; permet de mettre une bordure a toutes les div ce qui facilite la lisibilité en cas de bug */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(207, 207, 207);
+}
+#formulaire{
+    padding: 20px;
+    width: 400px;
+}
+.form_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+   
+}
+
+/* donner du style au formulaire */
+button{
+    padding: 10px;
+    border: 1px grey dotted;
+    border-radius: 7px;
+    background-color: rgb(98, 98, 217);
+    color: white;
+}
+
+/* style suvol */
+button:hover{
+    background-color: rgb(59, 59, 131);
+}
+
+/* Style aux inputs */
+input[type=text],
+input[type=email],
+input[type=passeword]{
+    padding: 10px;
+}
+
+/* donner du style aux placeholder */
+::placeholder,
+select#pays{
+    color: red;
+    text-align: right;
+}
+
+/* PAGE VALIDATION */
+
+.validation{
+    height: 100%;
+}
+
+#validPage{
+    background-image: url('success.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 30%;
+}
+
+#message{
+    margin: 0 auto; /*Centrer en largeur*/
+    padding: 20px;/* Eloigner le texte des bords*/
+    color: purple;
+    background-color: white;
+    text-align: center;
+}

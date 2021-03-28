@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body, html{
+    height: 100%; /* Pour pleine hauteur*/
+}
+/*Suppriimer le trait en-dessous de tous les liens.*/
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 100%;/*Pour pleine hauteur*/
+    background-image: url('fond.jpg');
+    background-size: cover;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.567);
+    height: 70px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    line-height: 70px;
+    padding: 30px;
+}
+nav a:hover{
+    color: yellow;
+    /* font-size: 28px; */
+}
+
+#cta{
+    text-align: center;
+    background-color: yellow;
+    width: 60%;
+    margin: 30% auto;
+    padding: 20px;
+}
+#cta a{
+color: black;
+font-size: 33px;
+}
+#cta a:hover{
+    color: red;
+}
+/* Changer la couleur du lien de cta au survol  */
+
+
+/* media queries */
+@media screen and (max-width:600px){
+    nav{
+        height: 200px;
+    }
+    
+    nav a{
+        display: block;
+        padding: 0px;
+    }
+}

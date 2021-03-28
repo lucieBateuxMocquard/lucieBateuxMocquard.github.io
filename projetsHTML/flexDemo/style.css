@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    background-color: gray;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    color:white;
+}
+.box{
+    padding: 20px;
+}
+#alaune{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.produit img{
+    width: 400px;
+}
+
+/* partie services */
+#services{
+    display: flex;
+    text-align: center;
+    background-color: rgb(233, 233, 195);
+}
+.servicesItem{
+    padding: 25px;
+}
+.servicesItem p{
+    text-align: justify;
+    padding-top: 20px;
+}
+
+/* Partie a propos */
+
+#apropos{
+    display: flex;
+}
+#apropos_texte{
+    flex: 2;
+    padding: 29px;
+    font-size: 25px;
+}
+#apropos_image{
+    flex: 1;
+}
+#apropos_image img{
+    max-width: 100%;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    background-color: gray;
+}
+.footer_colonne{
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+}
+.footer_colonne ul{
+    list-style-type: none;
+}

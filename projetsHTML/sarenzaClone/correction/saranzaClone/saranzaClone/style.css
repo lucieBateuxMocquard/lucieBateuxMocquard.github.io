@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: ;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    padding: 10px;
+    font-weight: 900;
+}
+nav div a:hover{
+    color: #FF0E50;
+}
+nav div:nth-child(3){
+    display: none;
+}
+a span{
+    padding: 10px;
+}
+#products{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article{
+    position: relative;
+    margin: 31px;
+
+}
+article .infos{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+}
+.infos div{
+    display: flex;
+    justify-content: space-between;
+}
+article div:nth-child(2), div:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+article div:nth-child(3) span{
+    text-decoration: line-through;
+}
+
+/*Ajout de style à .infos*/
+.infos span:first-child{
+    background-color: #FF0E50;
+    padding: 8px;
+    color: white;
+    margin: 10px;
+    width: 39px;
+    height: 20px;
+    line-height: 20px;
+}
+.infos span:nth-child(2){
+    margin: 10px;
+    padding: 4%;
+    color: #999;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(205, 205, 205);
+}
+.infos span:nth-child(2):hover{
+    color: #FF0E50;
+}
+/*Ajout de style à nom du produit +prix*/
+article div:nth-child(2) span {
+    color: #FF0E50;
+}
+/*Ajout de style à description +prix barré*/
+article div:nth-child(3) h3 {
+    color: #999;
+    font-size: 14px;
+}
+
+/*Media Queries*/
+@media screen and (max-width:768px){
+    /*Rendre le logo desktop invisible*/
+    nav div:nth-child(2){
+        display: none;
+    }
+    nav div:nth-child(3){
+        display: block;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    nav div a{
+        display: block;
+    }
+    /*Changer l'ordre des div dans nav*/
+    nav div{
+        margin-bottom: 30px;
+    }
+    nav div:nth-child(3){
+        order:-1;
+    }
+    nav div:first-child a{
+        display: inline;
+        margin-bottom: 15px;
+    }
+}/*Fin de la Media Queries*/

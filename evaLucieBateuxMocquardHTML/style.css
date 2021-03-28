@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1C1C1C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVIGATION */
+nav{
+    height: 200px;
+    background-image: url("images/images/background.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.taille{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav_bas_droit{
+    display: flex;
+    /* padding-top: 40px; */
+    font-size: small;
+    justify-content: end;
+}
+.bas_droit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 20px;
+    padding-right: 0px;
+    /*padding-bottom: 10px; */
+}
+
+#bonjour{
+    display: flex;
+    justify-content: end;
+    /* padding-top: 10px; */
+}
+strong{
+    font-weight : normal;
+}
+
+span{
+    color: #EA9F06;
+}
+
+
+
+
+/* ARTICLE */
+
+#header{
+    display: flex;
+align-items: center;
+max-width: 100%;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f3f3f3;
+    margin-top: 10px;
+}
+.relative{
+    position: relative;
+}
+
+.relative .titre{
+    position: absolute;
+}
+
+article{
+    position: relative;
+    margin: 31px;
+ }
+
+ article .etiquette{
+    position: absolute;
+    top: 0;
+}
+
+.titre{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+.etiquette{
+    background-color: #1C1C1C;
+padding: 8px;
+color: #EA9F06;
+margin: 10px;
+width: 46px;
+display: flex;
+justify-content: space-between;
+border-radius: 5px;
+right: -30px;
+top: 0;
+}
+
+.article_bas{
+    display: flex;
+}
+
+.article_bas_gauche{
+    background-color: #1C1C1C;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.prix_barre{
+    text-decoration: line-through;
+    padding: 0px 30px;
+}
+
+.prix{
+    color:#EA9F06;
+padding: 0px 50px 0px;;
+}
+
+
+/* BARRE INFO */
+
+#barre_info{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #373737;
+
+}
+
+#footer_haut{
+    display: flex;
+    text-align: center;
+    border: 1px #b5b5b5
+    solid;
+}
+
+.footer_bas{
+    text-align: center;
+}
+
+#icone{
+    display: flex;
+}
+
+/* RESPONCIVE */
+@media screen and (max-width:600px){
+    
+}

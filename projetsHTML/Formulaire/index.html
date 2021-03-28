@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="formulaire">
+            <h1>Merci de compléter ce formulaire</h1>
+
+            <form action="validation.html" method="GET">
+                <div class="form_item">
+                    <label for="nom">
+                        Votre nom
+                    </label>
+                    <input type="text" placeholder="Votre nom ici !" name="nom" id="nom">
+                </div>
+
+                <div class="form_item">
+                    <label for="Prénom">
+                        Votre prénom
+                    </label>
+                    <input type="text" placeholder="Votre prénom ici !" name="prénom" id="prénom">
+                </div>
+
+                <div class="form_item">
+                    <label for="email">
+                        Votre email
+                    </label>
+                    <input type="email" placeholder="Votre email ici !" name="email" id="mail">
+                </div>
+
+                <div class="form_item">
+                    <label for="password">
+                        Votre mot de passe
+                    </label>
+                    <input type="password" 
+                    placeholder="Votre mot de passe ici !" 
+                    name="motdepasse" 
+                    id="motdpasse"
+                    minlength="8">
+                </div>
+
+                <div class="form_item">
+                    <label for="message">
+                        Votre message
+                    </label>
+                   <textarea 
+                   id="message"
+                   name="message"
+                   maxlength="10"
+                   ></textarea>
+                </div>
+                <div class="form_item">
+                    <label for="pays">
+                        Votre pays
+                    </label>
+                    <select name="pays" id="pays">
+                        <option value="">-</option>
+                        <option value="">Australie</option>
+                        <option value="">Canada</option>
+                        <option value="">USA</option>
+                    </select>
+                </div>
+               <!-- case à cocher -->
+               <!-- l'atribut checked permet de cocher la case par défaut -->
+                <div class="form_item">
+                    <label for="nouveau">
+                        Nouveau client
+                    </label>
+                    <input type="checkbox" name="nouveau" id="nouveau" checked>
+                </div>
+
+                <!-- Un seul choix possible -->
+                <div class="form_item">
+                    <label for="service">
+                        Comptabilité
+                    </label>
+                    <input type="radio" name="service" id="service" value="comptabilite">
+                    <label for="service">
+                        Commercial
+                    </label>
+                    <input type="radio" name="service" id="service" value="commercial">
+                </div>
+               
+               
+               
+               
+               
+                <!-- ici bouton -->
+                <!-- <input type="submit" value="valider"> -->
+                <button type="submit">Envoyer</button><!--plus de possibilité avec button-->
+
+            </form> <!-- Aucun champs après cette ligne -->
+
+
+        </div>
+    </header>
+</body>
+</html>

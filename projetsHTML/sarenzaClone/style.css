@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+}
+nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.iti{
+    font-weight: bold;
+    padding: 15px;
+}
+
+.humains{
+    padding: 15px;
+    font-weight: 100;
+    font-size: small;
+}
+a{
+    text-decoration: none;
+    color: #1d1d1b;
+}
+
+/*SECTION ARTICLE*/
+
+section{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+article{
+    position: relative;
+    padding: 15px;
+}
+
+.haut{
+    position: absolute;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+
+.etiquette{
+        background-color: #FF0E50;
+        padding: 4px;
+        color: white;
+}
+
+
+.coeur{
+    display: flex;
+    justify-content: end;
+    left: 255px;
+    position: absolute;
+
+}
+
+.nouveau_prix{
+display: flex;
+justify-content: space-between;
+padding-top: 10px;
+font-weight: bold;
+font-size: larger;
+}
+
+.prix{
+    color: #FF0E50;
+}
+
+.ancien_prix{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: #999;
+}
+
+.barre{
+    text-decoration: line-through;
+}
