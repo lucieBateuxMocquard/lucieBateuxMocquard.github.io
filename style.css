@@ -93,7 +93,10 @@ padding: 5px;
   
   /* A PROPOS */
   .presentation{
+    border: 1px rgb(236, 208, 207) solid;
+    margin: 5%;
     padding: 20px;
+    text-align: left;
   }
 
   /* Responsive layout - makes a two column-layout instead of four columns */
