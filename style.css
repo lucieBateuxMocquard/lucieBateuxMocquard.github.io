@@ -62,13 +62,14 @@ padding: 5px;
   }
 
   .row {
-    margin: 8px -16px;
+    /* margin: 8px -16px; */
+    margin: 5%;
   }
   
   /* Add padding BETWEEN each column (if you want) */
   .row,
   .row > .column {
-    padding: 8px;
+    padding: 40px;
   }
   
   /* Create four equal columns that floats next to each other */
